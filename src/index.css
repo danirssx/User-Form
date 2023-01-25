@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: normal;
+  src: url(/fonts/OpenSans-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #e0e4cc;
+  font-family: "OpenSans", sans-serif;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}

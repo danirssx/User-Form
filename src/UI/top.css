@@ -1,0 +1,16 @@
+.top {
+  background: white;
+  display: grid;
+  border-radius: 0vh 0vh 10vh 10vh;
+  border-top: 0vh;
+  border-width: 2vh;
+  border-style: solid;
+  border-color: #f38630;
+  text-align: center;
+  color: #fa6900;
+  font-size: 3.5vh;
+}
+
+.h1top {
+  background: none;
+}

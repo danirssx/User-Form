@@ -1,0 +1,39 @@
+.h1 {
+  background-color: #a7dbd8;
+  font-size: 2vh;
+}
+
+.input {
+  background: white;
+  line-height: none;
+  border-style: none;
+  border-radius: 2vh;
+  font-size: 2vh;
+  padding: 2vh;
+}
+
+.input::placeholder {
+  opacity: 0.3;
+}
+
+.text {
+  background-color: #a7dbd8;
+  font-size: 3vh;
+  margin: 2vh;
+}
+
+.button {
+  background: white;
+  line-height: none;
+  border-style: none;
+  display: flex;
+  border-radius: 2vh;
+  font-size: 2vh;
+  padding: 2vh;
+  margin-top: 3vh;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

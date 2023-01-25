@@ -1,0 +1,59 @@
+.h1Error {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1vh;
+  background-color: #f38630;
+  color: white;
+  border-radius: 2vh;
+  font-size: 4vh;
+}
+
+.pError {
+  text-align: center;
+  margin: 0 auto;
+  padding: 1vh;
+  font-size: 2.5vh;
+  background-color: #69d2e7;
+  color: white;
+}
+
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.errorCard {
+  position: fixed;
+  top: 30vh;
+  left: 10%;
+  width: 80%;
+  z-index: 100;
+  overflow: hidden;
+  border-radius: 2vh;
+  background-color: #69d2e7;
+  padding: 2vh;
+}
+
+.action {
+  display: flex;
+  background-color: #69d2e7;
+  justify-content: flex-end;
+}
+
+.button {
+  border-radius: 2vh;
+  color: white;
+  background-color: #f38630;
+}
+
+@media (min-width: 768px) {
+  .errorCard {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
